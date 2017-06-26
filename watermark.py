@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 img = Image.open("test.jpg")
 img = img.convert("RGBA")
 
-# open watermark image
+# image watermark
 # logo1.png is an normal image file without any transparent background
 # logo2.png is an image with transparent background 
 logo_img = Image.open("logo1.png")
